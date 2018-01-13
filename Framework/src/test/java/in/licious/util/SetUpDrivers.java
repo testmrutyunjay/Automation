@@ -1,4 +1,4 @@
-package in.swagen.framework.util;
+package in.licious.util;
 import java.net.MalformedURLException;
 import java.net.URL;
 import org.openqa.selenium.Capabilities;

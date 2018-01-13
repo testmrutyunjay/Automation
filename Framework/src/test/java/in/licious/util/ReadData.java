@@ -1,4 +1,4 @@
- package in.swagen.framework.util;
+ package in.licious.util;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

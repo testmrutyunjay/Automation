@@ -1,4 +1,4 @@
-package in.swagen.framework.util;
+package in.licious.util;
 
 import java.awt.AWTException;
 import java.awt.Dimension;
@@ -75,7 +75,7 @@ public class Helper {
 			Robot robot=new Robot();
 			BufferedImage image = robot.createScreenCapture(new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
 			try {
-				ImageIO.write(image, "png", new File("./ScreenShots/"+sname+"-"+dateAndTimeStamp()+".png"));
+				ImageIO.write(image, "png", new File(System.getProperty("user.dir")+"/ScreenShots/"+sname+"-"+dateAndTimeStamp()+".png"));
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

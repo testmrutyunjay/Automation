@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37440" started-at="2018-01-11T03:59:46Z" finished-at="2018-01-11T04:00:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37440" started-at="2018-01-11T03:59:46Z" finished-at="2018-01-11T04:00:23Z">
+      <class name="in.licious.test.ValidLoginTest">
+        <test-method status="PASS" signature="initFramework()[pri:0, instance:in.licious.test.ValidLoginTest@b0338]" name="initFramework" is-config="true" duration-ms="285" started-at="2018-01-10T22:59:45Z" finished-at="2018-01-10T22:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initFramework -->
+        <test-method status="PASS" signature="initGlobalConstants()[pri:0, instance:in.licious.test.ValidLoginTest@b0338]" name="initGlobalConstants" is-config="true" duration-ms="5" started-at="2018-01-10T22:59:46Z" finished-at="2018-01-10T22:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initGlobalConstants -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.licious.test.ValidLoginTest@b0338]" name="setUp" is-config="true" duration-ms="32479" started-at="2018-01-10T22:59:46Z" finished-at="2018-01-10T23:00:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testValidLoginTest()[pri:0, instance:in.licious.test.ValidLoginTest@b0338]" name="testValidLoginTest" duration-ms="3920" started-at="2018-01-10T23:00:18Z" finished-at="2018-01-10T23:00:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:in.licious.test.ValidLoginTest@b0338]" name="tearDown" is-config="true" duration-ms="928" started-at="2018-01-10T23:00:22Z" finished-at="2018-01-10T23:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeFramework()[pri:0, instance:in.licious.test.ValidLoginTest@b0338]" name="closeFramework" is-config="true" duration-ms="1" started-at="2018-01-10T23:00:23Z" finished-at="2018-01-10T23:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeFramework -->
+      </class> <!-- in.licious.test.ValidLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

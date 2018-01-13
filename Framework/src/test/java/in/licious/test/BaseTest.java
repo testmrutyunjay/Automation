@@ -1,4 +1,4 @@
-package in.swagen.framework.test;
+package in.licious.test;
 
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -13,9 +13,10 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 
-import in.swagen.framework.util.CustomListeners;
-import in.swagen.framework.util.InitProperties;
-import in.swagen.framework.util.SetUpDrivers;
+import in.licious.util.CustomListeners;
+import in.licious.util.InitProperties;
+import in.licious.util.SetUpDrivers;
+
 @Listeners(CustomListeners.class)
 public abstract class BaseTest {
 
@@ -34,12 +35,8 @@ public abstract class BaseTest {
 	}
 	@BeforeSuite
 	public void initFramework(){
-		properties=InitProperties.initPropertis("config","login");
+		properties=InitProperties.initPropertis("config");
 		log.info("framework is initialised");
-	}
-	@AfterSuite
-	public void closeFramework(){
-		
 	}
 	@BeforeTest
 	public void initGlobalConstants(){
@@ -75,5 +72,9 @@ public abstract class BaseTest {
 	public void tearDown(){
 		driver.close();
 		log.info(browserName+" is closed");
+	}
+	@AfterSuite
+	public void closeFramework(){
+		
 	}
 }
